@@ -3,7 +3,7 @@ layout: default
 ---
 Welcome to the Albion Data Project!
 
-### Developer Information
+### [](#header-3)Developer Information
 If you're building something to consume the data published by the
 Albion Data Project here are some things you will need to know:
 
@@ -11,4 +11,4 @@ Albion Data Project here are some things you will need to know:
 - NATS Topics:
   - goldprices.deduped
   - marketorders.deduped
-- Structure of data messages: https://github.com/Regner/albiondata-client/tree/master/lib
+- Structure of data messages: [albiondata-client/lib](https://github.com/Regner/albiondata-client/tree/master/lib)
