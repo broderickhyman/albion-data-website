@@ -7,6 +7,8 @@ Welcome to the Albion Data Project!
 
 The goal of this project is to collect and distribute realtime information for Albion Online. This is achieved with a downloadable client that monitors network traffic specifically for Albion Online, identifies the relevant information, and then ships it off to a central server which distributes the information to anyone who wants it.
 
+[Click here to download the client.](https://github.com/Regner/albiondata-client/releases)
+
 ### Player Information
 If you would like to help the Albion Data Project, and all the web sites and applications that use the data provided by it, then the best thing you can do is download our client and run it whenever you're playing Albion Online.
 
