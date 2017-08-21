@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-Welcome to the Albion Data Project! The goal of this project is to collect and distribute realtime information for Albion Online. This is achieved with a downloadable client that monitors network traffic specifically for Albion Online, identifies the relevant information, and then ships it off to a central server which distributes the information to anyone who wants it.
+Welcome to the Albion Data Project!
+
+The goal of this project is to collect and distribute realtime information for Albion Online. This is achieved with a downloadable client that monitors network traffic specifically for Albion Online, identifies the relevant information, and then ships it off to a central server which distributes the information to anyone who wants it.
 
 ### Developer Information
 If you're building something to consume the data published by the
