@@ -21,3 +21,6 @@ New people connecting to the network may have missed previous messages. Along wi
 ### Related Projects
 - [albiondata-client](https://github.com/Regner/albiondata-client)
 - [albiondata-deduper](https://github.com/Regner/albiondata-deduper)
+
+### Contact Us
+The best way to get in touch with us is on the Albion Online Fansites Discord server in either the #proj-albionmarket or the #developers channel. A permanent invite link can be found [here](https://discord.gg/8DDSjTs).
