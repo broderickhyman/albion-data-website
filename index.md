@@ -12,7 +12,7 @@ The goal of this project is to collect and distribute realtime information for A
 ### Player Information
 If you would like to help the Albion Data Project, and all the web sites and applications that use the data provided by it, then the best thing you can do is download our client and run it whenever you're playing Albion Online.
 
-The most recent releases can be found here: https://github.com/Regner/albiondata-client/releases
+The most recent releases can be found here: [https://github.com/Regner/albiondata-client/releases](https://github.com/Regner/albiondata-client/releases)
 
 ### Developer Information
 If you're building something to consume the data published by the
