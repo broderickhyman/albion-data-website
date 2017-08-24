@@ -21,6 +21,7 @@ Albion Data Project here are some things you will need to know:
 - NATS Topics:
   - goldprices.deduped
   - marketorders.deduped
+  - mapdata.deduped
 - Structure of data messages: [albiondata-client/lib](https://github.com/Regner/albiondata-client/tree/master/lib)
 
 A note on duplicate messages. As information comes into the NATS Server it is looked at and deduplicated over a 5 minute window. As a subscriber the goal is that you should only get the same message once every 5 minutes. This is of course open for change as we go however. The reason we are sending the same message at all is two fold.
