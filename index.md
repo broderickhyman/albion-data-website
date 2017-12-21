@@ -35,7 +35,7 @@ New people connecting to the network may have missed previous messages. Along wi
 - [albiondata-api](https://github.com/BroderickHyman/albiondata-api)
 
 ### Contact Us
-The best way to get in touch with us is on the Albion Online Fansites Discord server in either the #proj-albiondata or the #developers channel. A permanent invite link can be found here: [https://discord.gg/8DDSjTs](https://discord.gg/8DDSjTs)
+The best way to get in touch with us is on the Albion Online Fansites Discord server in either the #proj-albiondata or the #developers channel. My username is MyPickle#2527. A permanent invite link can be found here: [https://discord.gg/8DDSjTs](https://discord.gg/8DDSjTs)
 
 ### Is This Allowed
 > Our position is quite simple. As long as you just look and analyze we are ok with it. The moment you modify or manipulate something or somehow interfere with our services we will react (e.g. perma-ban, take legal action, whatever).
