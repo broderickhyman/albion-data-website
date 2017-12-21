@@ -14,6 +14,11 @@ If you would like to help the Albion Data Project, and all the web sites and app
 
 The most recent releases can be found here: [https://github.com/BroderickHyman/albiondata-client/releases](https://github.com/BroderickHyman/albiondata-client/releases)
 
+### Where Can I View The Data I Uploaded?
+One easy to use website is [AlbionOnline2d](https://www.albiononline2d.com/en/market). This website pulls the latest information from the database and shows different selling metrics for the Auction Houses.
+
+We are actively developing more websites for market analysis, if you have a website/tool you would like listed here, please contact us, info below.
+
 ### Developer Information
 If you're building something to consume the data published by the
 Albion Data Project here are some things you will need to know:
@@ -25,7 +30,7 @@ Albion Data Project here are some things you will need to know:
 - Structure of data messages: [albiondata-client/lib](https://github.com/BroderickHyman/albiondata-client/tree/master/lib)
 
 A note on duplicate messages. As information comes into the NATS Server it is looked at and deduplicated over a 5 minute window. As a subscriber the goal is that you should only get the same message once every 5 minutes. This is of course open for change as we go however. The reason we are sending the same message at all is two fold.
- 
+
 New people connecting to the network may have missed previous messages. Along with that however we don’t have a good way of noticing things like market orders completing. To remove market orders from your application the current best idea around is to keep track of the last time an order was seen, and then after not seeing it for X hours remove it as probably having been completed.
 
 ### Related Projects
