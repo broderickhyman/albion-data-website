@@ -17,6 +17,10 @@ The most recent releases can be found here: [https://github.com/BroderickHyman/a
 ### Where Can I View The Data I Uploaded?
 One easy to use website is [AlbionOnline2d](https://www.albiononline2d.com/en/market). This website pulls the latest information from the database and shows different selling metrics for the Auction Houses.
 
+Another website is [AlbionAssistant](http://albionassistant.com/). This website utilizes the data and calculates crafting recipe costs and profits.
+
+An api is available with the format: [https://www.albion-online-data.com/api/v1/stats/prices/ITEM_ID1,ItemID2?locations=Caerleon Market,Bridgewatch Market](https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL)
+
 We are actively developing more websites for market analysis, if you have a website/tool you would like listed here, please contact us, info below.
 
 ### Developer Information
