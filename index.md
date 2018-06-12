@@ -25,6 +25,8 @@ Current Prices: [https://www.albion-online-data.com/api/v1/stats/prices/ITEM_ID1
 
 Historical Prices: [https://www.albion-online-data.com/api/v1/stats/charts/ITEM_ID](https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL)
 
+Gold Prices: [https://www.albion-online-data.com/api/v1/stats/gold](https://www.albion-online-data.com/api/v1/stats/gold)
+
 We are actively developing more websites for market analysis, if you have a website/tool you would like listed here, please contact us, info below.
 
 ### Developer Information
