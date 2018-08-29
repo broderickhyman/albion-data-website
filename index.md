@@ -27,6 +27,8 @@ Historical Prices: [https://www.albion-online-data.com/api/v1/stats/charts/ITEM_
 
 Gold Prices: [https://www.albion-online-data.com/api/v1/stats/gold](https://www.albion-online-data.com/api/v1/stats/gold)
 
+(Item IDs can be found here: [Formatted metadata](https://github.com/broderickhyman/ao-bin-dumps/tree/master/formatted))
+
 We are actively developing more websites for market analysis, if you have a website/tool you would like listed here, please contact us, info below.
 
 ### Developer Information
