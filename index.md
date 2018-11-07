@@ -55,9 +55,10 @@ New people connecting to the network may have missed previous messages. Along wi
 
 ### Related Projects
 - [albiondata-client](https://github.com/BroderickHyman/albiondata-client)
-- [albiondata-deduper](https://github.com/BroderickHyman/albiondata-deduper)
-- [albiondata-sql](https://github.com/BroderickHyman/albiondata-sql)
-- [albiondata-api](https://github.com/BroderickHyman/albiondata-api)
+- [albiondata-deduper-dotNet](https://github.com/BroderickHyman/albiondata-deduper-dotNet)
+- [albiondata-sql-dotNet](https://github.com/BroderickHyman/albiondata-sql-dotNet)
+- [albiondata-api-dotNet](https://github.com/BroderickHyman/albiondata-api-dotNet)
+- [AlbionData.Models](https://github.com/broderickhyman/albiondata-models-dotNet) [![NuGet](https://img.shields.io/nuget/v/AlbionData.Models.svg)](https://www.nuget.org/packages/AlbionData.Models/)
 
 ### Contact Us
 The best way to get in touch with us is on the Albion Online Fansites Discord server in either the #proj-albiondata or the #developers channel. My username is MyPickle#2527. A permanent invite link can be found here: [https://discord.gg/8DDSjTs](https://discord.gg/8DDSjTs)
