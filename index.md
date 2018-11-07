@@ -19,6 +19,8 @@ If you would like to help the Albion Data Project, and all the web sites and app
 The most recent releases can be found here: [https://github.com/BroderickHyman/albiondata-client/releases](https://github.com/BroderickHyman/albiondata-client/releases)
 
 ### Where Can I View The Data I Uploaded?
+Current Prices (Table View): [https://www.albion-online-data.com/api/v1/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch](https://www.albion-online-data.com/api/v1/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
+
 One easy to use website is [AlbionOnline2d](https://www.albiononline2d.com/en/market). This website pulls the latest information from the database and shows different selling metrics for the Auction Houses.
 
 Another website is [AlbionAssistant](http://albionassistant.com/). This website utilizes the data and calculates crafting recipe costs and profits.
@@ -27,9 +29,9 @@ An API is available on the main server, with [Swagger documentation available](h
 
 API Quick Examples:
 
-Current Prices: [https://www.albion-online-data.com/api/v1/stats/prices/ITEM_ID1,ItemID2?locations=Caerleon Market,Bridgewatch Market](https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL)
+Current Prices: [https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch](https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
 
-Historical Prices: [https://www.albion-online-data.com/api/v1/stats/charts/ITEM_ID](https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL)
+Historical Prices: [https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL](https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL)
 
 Gold Prices: [https://www.albion-online-data.com/api/v1/stats/gold](https://www.albion-online-data.com/api/v1/stats/gold)
 
