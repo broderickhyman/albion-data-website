@@ -23,7 +23,9 @@ One easy to use website is [AlbionOnline2d](https://www.albiononline2d.com/en/ma
 
 Another website is [AlbionAssistant](http://albionassistant.com/). This website utilizes the data and calculates crafting recipe costs and profits.
 
-An api is available with the formats:
+An API is available on the main server, with [Swagger documentation available](https://www.albion-online-data.com/api/swagger).
+
+API Quick Examples:
 
 Current Prices: [https://www.albion-online-data.com/api/v1/stats/prices/ITEM_ID1,ItemID2?locations=Caerleon Market,Bridgewatch Market](https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL)
 
