@@ -29,10 +29,9 @@ The best way to make use of the data is by using the tools that are built on it:
 
 Market data can be also be obtained through the API, which has [Swagger documentation available here](https://www.albion-online-data.com/api/swagger). (Item IDs can be found in the [formatted metadata](https://github.com/broderickhyman/ao-bin-dumps/tree/master/formatted), for use in the API.)
 
-- Current Prices (Table View): [`https://www.albion-online-data.com/api/v1/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch`](https://www.albion-online-data.com/api/v1/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
-- Current Prices (JSON): [`https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch`](https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
+- Current Prices (Table View): [`https://www.albion-online-data.com/api/v2/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch`](https://www.albion-online-data.com/api/v2/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
+- Current Prices (JSON): [`https://www.albion-online-data.com/api/v2/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch`](https://www.albion-online-data.com/api/v2/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
 - Historical Prices (sell orders only): [`https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL`](https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL)
-- Gold Prices: [`https://www.albion-online-data.com/api/v1/stats/gold`](https://www.albion-online-data.com/api/v1/stats/gold)
 
 ### Developer Information
 If you're building something to consume the data published by the
