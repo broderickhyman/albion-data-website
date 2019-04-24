@@ -18,35 +18,30 @@ If you would like to help the Albion Data Project, and all the web sites and app
 
 The most recent releases can be found here: [https://github.com/BroderickHyman/albiondata-client/releases](https://github.com/BroderickHyman/albiondata-client/releases)
 
-### Where Can I View The Data I Uploaded?
-Current Prices (Table View): [https://www.albion-online-data.com/api/v1/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch](https://www.albion-online-data.com/api/v1/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
+### Where Can I View The Data I Upload?
+> Note that the client can only upload the market orders that you load in game, so be sure to browse the market for the prices that you need. When a price is uploaded, it is visible in the data immediately.
 
-One easy to use website is [AlbionOnline2d](https://www.albiononline2d.com/en/market). This website pulls the latest information from the database and shows different selling metrics for the Auction Houses.
+The best way to make use of the data is by using the tools that are built on it:
 
-Another website is [AlbionAssistant](http://albionassistant.com/). This website utilizes the data and calculates crafting recipe costs and profits.
+- [AlbionOnline2d](https://www.albiononline2d.com/en/market) pulls the latest information from the database and shows different selling metrics for the Auction Houses.
+- [AlbionAssistant](http://albionassistant.com/) utilizes the data to calculate crafting recipe costs and profits.
+- More tools are actively being developed. If you want your project listed here, contact us using the info below.
 
-An API is available on the main server, with [Swagger documentation available](https://www.albion-online-data.com/api/swagger).
+Market data can be also be obtained through the API, which has [Swagger documentation available here](https://www.albion-online-data.com/api/swagger). (Item IDs can be found in the [formatted metadata](https://github.com/broderickhyman/ao-bin-dumps/tree/master/formatted), for use in the API.)
 
-API Quick Examples:
-
-Current Prices: [https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch](https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
-
-Historical Prices: [https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL](https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL)
-
-Gold Prices: [https://www.albion-online-data.com/api/v1/stats/gold](https://www.albion-online-data.com/api/v1/stats/gold)
-
-(Item IDs can be found here: [Formatted metadata](https://github.com/broderickhyman/ao-bin-dumps/tree/master/formatted))
-
-We are actively developing more websites for market analysis, if you have a website/tool you would like listed here, please contact us, info below.
+- Current Prices (Table View): [`https://www.albion-online-data.com/api/v1/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch`](https://www.albion-online-data.com/api/v1/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
+- Current Prices (JSON): [`https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch`](https://www.albion-online-data.com/api/v1/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
+- Historical Prices (sell orders only): [`https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL`](https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL)
+- Gold Prices: [`https://www.albion-online-data.com/api/v1/stats/gold`](https://www.albion-online-data.com/api/v1/stats/gold)
 
 ### Developer Information
 If you're building something to consume the data published by the
 Albion Data Project here are some things you will need to know:
 - NATS Connection String: nats://public:thenewalbiondata@www.albion-online-data.com:4222
 - NATS Topics:
-  - goldprices.deduped
-  - marketorders.deduped
-  - mapdata.deduped
+  - `goldprices.deduped`
+  - `marketorders.deduped`
+  - `mapdata.deduped`
 - Structure of data messages: [albiondata-client/lib](https://github.com/BroderickHyman/albiondata-client/tree/master/lib)
 
 A note on duplicate messages. As information comes into the NATS Server it is looked at and deduplicated over a 5 minute window. As a subscriber the goal is that you should only get the same message once every 5 minutes. This is of course open for change as we go however. The reason we are sending the same message at all is two fold.
