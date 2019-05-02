@@ -31,7 +31,7 @@ Market data can be also be obtained through the API, which has [Swagger document
 
 - Current Prices (Table View): [`https://www.albion-online-data.com/api/v2/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch`](https://www.albion-online-data.com/api/v2/stats/view/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
 - Current Prices (JSON): [`https://www.albion-online-data.com/api/v2/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch`](https://www.albion-online-data.com/api/v2/stats/prices/T3_FURNITUREITEM_TROPHY_GENERAL?locations=Caerleon,Bridgewatch)
-- Historical Prices (sell orders only): [`https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL`](https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL)
+- Historical Prices (sell orders only): [`https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL?date=4-30-2019&locations=Thetford`](https://www.albion-online-data.com/api/v1/stats/charts/T3_FURNITUREITEM_TROPHY_GENERAL?date=4-30-2019&locations=Thetford)
 
 ### Developer Information
 If you're building something to consume the data published by the
