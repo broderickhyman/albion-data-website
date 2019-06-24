@@ -31,7 +31,7 @@ Market data can be also be obtained through the API, which has [Swagger document
 
 - Current Prices (Table View): [`https://www.albion-online-data.com/api/v2/stats/view/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2`](https://www.albion-online-data.com/api/v2/stats/view/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2)
 - Current Prices (JSON): [`https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2`](https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2)
-- Historical Prices (sell orders only): [`https://www.albion-online-data.com/api/v1/stats/charts/T4_BAG,T5_BAG?date=5-15-2019&locations=Thetford`](https://www.albion-online-data.com/api/v1/stats/charts/T4_BAG,T5_BAG?date=5-15-2019&locations=Thetford)
+- Historical Prices (sell orders only): [`https://www.albion-online-data.com/api/v1/stats/charts/T4_BAG?date=5-15-2019&locations=Thetford`](https://www.albion-online-data.com/api/v1/stats/charts/T4_BAG?date=5-15-2019&locations=Thetford)
 
 ### Developer Information
 If you're building something to consume the data published by the
