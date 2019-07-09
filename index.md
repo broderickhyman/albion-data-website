@@ -25,6 +25,7 @@ The most recent releases can be found here: [https://github.com/BroderickHyman/a
 
 The best way to make use of the data is by using the tools that are built on it:
 
+- [Tools4Albion](https://www.tools4albion.com) provides calculators for crafting, farming, and reprocessing. Has a lot of useful information for users and developers alike.
 - [AlbionOnline2d](https://www.albiononline2d.com/en/market) pulls the latest information from the database and shows different selling metrics for the Auction Houses.
 - [AlbionAssistant](http://albionassistant.com/) utilizes the data to calculate crafting recipe costs and profits.
 - More tools are actively being developed. If you want your project listed here, contact us using the info below.
