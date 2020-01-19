@@ -39,6 +39,10 @@ Market data can be also be obtained through the API, which has [Swagger document
 - Current Prices (JSON): [`https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2`](https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2)
 - Historical Prices (sell orders only): [`https://www.albion-online-data.com/api/v1/stats/charts/T4_BAG?date=5-15-2019&locations=Thetford`](https://www.albion-online-data.com/api/v1/stats/charts/T4_BAG?date=5-15-2019&locations=Thetford)
 
+
+### Related Albion Tools
+- [Albion Online Stats - DPS tracker](https://github.com/mazurwiktor/albion-online-stats)
+
 ### Developer Information
 If you're building something to consume the data published by the
 Albion Data Project here are some things you will need to know:
@@ -53,7 +57,7 @@ A note on duplicate messages. As information comes into the NATS Server it is lo
 
 New people connecting to the network may have missed previous messages. Along with that however we don’t have a good way of noticing things like market orders completing. To remove market orders from your application the current best idea around is to keep track of the last time an order was seen, and then after not seeing it for X hours remove it as probably having been completed.
 
-### Related Projects
+### Albion Data Projects
 - [albiondata-client](https://github.com/BroderickHyman/albiondata-client)
 - [albiondata-deduper-dotNet](https://github.com/BroderickHyman/albiondata-deduper-dotNet)
 - [albiondata-sql-dotNet](https://github.com/BroderickHyman/albiondata-sql-dotNet)
