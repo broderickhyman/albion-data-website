@@ -37,8 +37,12 @@ Market data can be also be obtained through the API, which has [Swagger document
 
 - Current Prices (Table View): [`https://www.albion-online-data.com/api/v2/stats/view/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2`](https://www.albion-online-data.com/api/v2/stats/view/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2)
 - Current Prices (JSON): [`https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2`](https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2)
-- Historical Prices (sell orders only): [`https://www.albion-online-data.com/api/v1/stats/charts/T4_BAG?date=5-15-2019&locations=Thetford`](https://www.albion-online-data.com/api/v1/stats/charts/T4_BAG?date=5-15-2019&locations=Thetford)
-
+- Historical Prices (sell orders only):
+  - **New!** [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2)
+  - **New!** For charts: [`https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2`](https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2)
+- Gold Prices:
+  - **New!** Over time: [`https://www.albion-online-data.com/api/v2/stats/gold?date=2-5-2020`](https://www.albion-online-data.com/api/v2/stats/gold?date=2-5-2020)
+  - **New!** Most recent X prices: [`https://www.albion-online-data.com/api/v2/stats/gold?count=2`](https://www.albion-online-data.com/api/v2/stats/gold?count=2)
 
 ### Related Albion Tools
 - [Albion Online Stats - DPS tracker](https://github.com/mazurwiktor/albion-online-stats)
