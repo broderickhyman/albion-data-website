@@ -38,8 +38,9 @@ Market data can be also be obtained through the API, which has [Swagger document
 - Current Prices (Table View): [`https://www.albion-online-data.com/api/v2/stats/view/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2`](https://www.albion-online-data.com/api/v2/stats/view/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2)
 - Current Prices (JSON): [`https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2`](https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2)
 - Historical Prices (sell orders only):
-  - **New!** [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2)
-  - **New!** For charts: [`https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2`](https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2)
+  - **New!** [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6)
+  - **New!** Hourly (time-scale=1): [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?time-scale=1`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?time-scale=1)
+  - **New!** For charts: [`https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6`](https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6)
 - Gold Prices:
   - **New!** Over time: [`https://www.albion-online-data.com/api/v2/stats/gold?date=2-5-2020`](https://www.albion-online-data.com/api/v2/stats/gold?date=2-5-2020)
   - **New!** Most recent X prices: [`https://www.albion-online-data.com/api/v2/stats/gold?count=2`](https://www.albion-online-data.com/api/v2/stats/gold?count=2)
