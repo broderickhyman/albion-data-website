@@ -40,6 +40,7 @@ Market data can be also be obtained through the API, which has [Swagger document
 - Historical Prices (sell orders only):
   - **New!** [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6)
   - **New!** Hourly (time-scale=1): [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?time-scale=1`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?time-scale=1)
+  - **New!** Daily (time-scale=24): [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?time-scale=24`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?time-scale=24)
   - **New!** For charts: [`https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6`](https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6)
 - Gold Prices:
   - **New!** Over time: [`https://www.albion-online-data.com/api/v2/stats/gold?date=2-5-2020`](https://www.albion-online-data.com/api/v2/stats/gold?date=2-5-2020)
