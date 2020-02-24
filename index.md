@@ -3,6 +3,8 @@ layout: default
 ---
 **!! THIS PROJECT IS STILL IN BETA !!**
 
+**!! These tools are not affiliated with Albion Online or Sandbox Interactive GmbH !!**
+
 Welcome to the Albion Data Project!
 
 The goal of this project is to collect and distribute realtime information for Albion Online. This is achieved with a downloadable client that monitors network traffic specifically for Albion Online, identifies the relevant information, and then ships it off to a central server which distributes the information to anyone who wants it.
@@ -31,6 +33,7 @@ The best way to make use of the data is by using the tools that are built on it:
 - [Tools4Albion](https://www.tools4albion.com) provides calculators for crafting, farming, and reprocessing. Has a lot of useful information for users and developers alike.
 - [AlbionOnline2d](https://www.albiononline2d.com/en/market) pulls the latest information from the database and shows different selling metrics for the Auction Houses.
 - [AlbionAssistant](http://albionassistant.com/) utilizes the data to calculate crafting recipe costs and profits.
+- [Farm Profit Calculator](http://aofarm.skyline969.ca/) utilizes market data to provide a guide to the best farming options for you based on current prices.
 - More tools are actively being developed. If you want your project listed here, contact us using the info below.
 
 Market data can be also be obtained through the API, which has [Swagger documentation available here](https://www.albion-online-data.com/api/swagger). (Item IDs can be found in the [formatted metadata](https://github.com/broderickhyman/ao-bin-dumps/tree/master/formatted), for use in the API.)
