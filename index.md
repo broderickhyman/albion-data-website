@@ -34,6 +34,7 @@ The best way to make use of the data is by using the tools that are built on it:
 - [AlbionOnline2d](https://www.albiononline2d.com/en/market) pulls the latest information from the database and shows different selling metrics for the Auction Houses.
 - [AlbionAssistant](http://albionassistant.com/) utilizes the data to calculate crafting recipe costs and profits.
 - [Farm Profit Calculator](http://aofarm.skyline969.ca/) utilizes market data to provide a guide to the best farming options for you based on current prices.
+- [Albion Black Market Master](http://albionblackmarketmaster.com/) looks for quick transactions between the Caerleon Market and the Black Market.
 - More tools are actively being developed. If you want your project listed here, contact us using the info below.
 
 Market data can be also be obtained through the API, which has [Swagger documentation available here](https://www.albion-online-data.com/api/swagger). (Item IDs can be found in the [formatted metadata](https://github.com/broderickhyman/ao-bin-dumps/tree/master/formatted), for use in the API.)
@@ -48,6 +49,12 @@ Market data can be also be obtained through the API, which has [Swagger document
 - Gold Prices:
   - **New!** Over time: [`https://www.albion-online-data.com/api/v2/stats/gold?date=2-5-2020`](https://www.albion-online-data.com/api/v2/stats/gold?date=2-5-2020)
   - **New!** Most recent X prices: [`https://www.albion-online-data.com/api/v2/stats/gold?count=2`](https://www.albion-online-data.com/api/v2/stats/gold?count=2)
+  
+Many people find it useful to load these APIs in spreadsheets such as Microsoft Excel or Google Sheets. There is no single best way to do this, but some of the common ways are as follows:
+
+- [Excel Power Query](https://support.office.com/en-us/article/introduction-to-microsoft-power-query-for-excel-6e92e2f4-2079-4e1f-bad5-89f6269cd605)
+- [Google Sheets IMPORTXML](https://support.google.com/docs/answer/3093342?hl=en)
+- [Google Sheets ImportJSON (third-party script)](https://github.com/bradjasper/ImportJSON)
 
 ### Related Albion Tools
 - [Albion Online Stats - DPS tracker](https://github.com/mazurwiktor/albion-online-stats)
