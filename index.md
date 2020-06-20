@@ -59,6 +59,14 @@ Many people find it useful to load these APIs in spreadsheets such as Microsoft 
 ### Related Albion Tools
 - [Albion Online Stats - DPS tracker](https://github.com/mazurwiktor/albion-online-stats)
 
+### Troubleshooting
+Starting the client via the command line will allow the error message to persist. For windows do "C:\Program Files\Albion Data Client\albiondata-client.exe" in the Command Prompt.
+
+#### Client crashing
+- "No such device exists" error
+  - Go to your internet details and find the Physical Address (MAC Address) for your internet connection. It will look something like A0-A0-A0-A0-A0-A0.
+  - Then start the client like "C:\Program Files\Albion Data Client\albiondata-client.exe" -l "A0-A0-A0-A0-A0-A0" and it should listen to only the interface that you specified.
+
 ### Developer Information
 If you're building something to consume the data published by the
 Albion Data Project here are some things you will need to know:
