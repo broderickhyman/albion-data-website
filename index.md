@@ -81,6 +81,10 @@ A note on duplicate messages. As information comes into the NATS Server it is lo
 
 New people connecting to the network may have missed previous messages. Along with that however we don’t have a good way of noticing things like market orders completing. To remove market orders from your application the current best idea around is to keep track of the last time an order was seen, and then after not seeing it for X hours remove it as probably having been completed.
 
+### Database Table Exports
+
+You can find daily table dumps on the server at [https://www.albion-online-data.com/database/](https://www.albion-online-data.com/database/). The export contains a .sql file for each table, and a .zip file for each table that contains a tab-separated .txt data file which can be imported into MySQL using common tools.
+
 ### Albion Data Projects
 - [albiondata-client](https://github.com/BroderickHyman/albiondata-client)
 - [albiondata-deduper-dotNet](https://github.com/BroderickHyman/albiondata-deduper-dotNet)
