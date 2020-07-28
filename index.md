@@ -59,6 +59,43 @@ Many people find it useful to load these APIs in spreadsheets such as Microsoft 
 ### Related Albion Tools
 - [Albion Online Stats - DPS tracker](https://github.com/mazurwiktor/albion-online-stats)
 
+### Configuration
+You can see all of the current available command line parameters by launching the executable with `"C:\Program Files\Albion Data Client\albiondata-client.exe" -h` or by adding `-h` to the shortcut.
+#### Parameters
+At the time of writing the following are the available (well-supported) configuration options:
+```
+"C:\Program Files\Albion Data Client\albiondata-client.exe" -h
+  -d    If specified no attempts will be made to upload data to remote server.
+  -debug
+        Enable debug logging.
+  -events string
+        Whitelist of event IDs to output messages when debugging. Comma separated.
+  -events-ignore string
+        Blacklist of event IDs to hide messages when debugging. Comma separated.
+  -i string
+        Base URL to send PUBLIC data to, can be 'nats://', 'http://' or 'noop' and can have multiple uploaders. Comma separated. (default "nats://public:thenewalbiondata@www.albion-online-data.com:4222")
+  -ignore-decode-errors
+        Ignore the decoding errors when debugging
+  -l string
+        Listen on this comma separated devices instead of all available
+  -minimize
+        Automatically minimize the window.
+  -o string
+        Parses a local file instead of checking albion ports.
+  -operations string
+        Whitelist of operation IDs to output messages when debugging. Comma separated.
+  -operations-ignore string
+        Blacklist of operation IDs to hide messages when debugging. Comma separated.
+  -p string
+        Base URL to send PRIVATE data to, can be 'nats://', 'http://' or 'noop' and can have multiple uploaders. Comma separated.
+```
+
+#### Disable Start With Windows
+1. Open up the program `Task Scheduler`.
+1. Click on the `Task Scheduler Library` in the left side pane.
+1. Find the task with the name `Albion Data Client`.
+1. Right-click `Disable` to disable the task.
+
 ### Troubleshooting
 Starting the client via the command line will allow the error message to persist. For windows do: `"C:\Program Files\Albion Data Client\albiondata-client.exe"` in the Command Prompt.
 
