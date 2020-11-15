@@ -60,7 +60,6 @@ Many people find it useful to load these APIs in spreadsheets such as Microsoft 
 
 - [Google Sheets ImportJSON (third-party script)](https://github.com/bradjasper/ImportJSON)
 > Note: Some people have noticed issues with ImportJSON and repeating rows
-
 > Example: `=ImportJSON("https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG.json?locations=Caerleon&qualities=2", "", "noHeaders")`
 
 ### Related Albion Tools
