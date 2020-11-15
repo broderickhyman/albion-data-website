@@ -44,12 +44,12 @@ Market data can be also be obtained through the API, which has [Swagger document
 - Current Prices (Table View): [`https://www.albion-online-data.com/api/v2/stats/view/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2`](https://www.albion-online-data.com/api/v2/stats/view/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2)
 - Current Prices (JSON): [`https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG,T5_BAG.json?locations=Caerleon,Bridgewatch&qualities=2`](https://www.albion-online-data.com/api/v2/stats/prices/T4_BAG,T5_BAG?locations=Caerleon,Bridgewatch&qualities=2)
 - Historical Prices (sell orders only):
-  - **New!** [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG,T5_BAG.json?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6)
+  - **New!** [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG,T5_BAG.json?date=2-5-2020&end_date=2-12-2020&locations=Caerleon&qualities=2&time-scale=6`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?date=2-5-2020&end_date=2-12-2020&locations=Caerleon&qualities=2&time-scale=6)
   - **New!** Hourly (time-scale=1): [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG,T5_BAG.json?time-scale=1`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?time-scale=1)
   - **New!** Daily (time-scale=24): [`https://www.albion-online-data.com/api/v2/stats/history/T4_BAG,T5_BAG.json?time-scale=24`](https://www.albion-online-data.com/api/v2/stats/history/T4_BAG?time-scale=24)
-  - **New!** For charts: [`https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG,T5_BAG.json?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6`](https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG?date=2-5-2020&locations=Caerleon&qualities=2&time-scale=6)
+  - **New!** For charts: [`https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG,T5_BAG.json?date=2-5-2020&end_date=2-12-2020&locations=Caerleon&qualities=2&time-scale=6`](https://www.albion-online-data.com/api/v2/stats/charts/T4_BAG?date=2-5-2020&end_date=2-12-2020&locations=Caerleon&qualities=2&time-scale=6)
 - Gold Prices:
-  - **New!** Over time: [`https://www.albion-online-data.com/api/v2/stats/gold.json?date=2-5-2020`](https://www.albion-online-data.com/api/v2/stats/gold?date=2-5-2020)
+  - **New!** Over time: [`https://www.albion-online-data.com/api/v2/stats/gold.json?date=2-5-2020&end_date=2-12-2020`](https://www.albion-online-data.com/api/v2/stats/gold?date=2-5-2020&end_date=2-12-2020)
   - **New!** Most recent X prices: [`https://www.albion-online-data.com/api/v2/stats/gold.json?count=2`](https://www.albion-online-data.com/api/v2/stats/gold?count=2)
   
 Many people find it useful to load these APIs in spreadsheets such as Microsoft Excel or Google Sheets. There is no single best way to do this, but some of the common ways are as follows:
